@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  color: black;
+}
+
+#nav1 {
+  float: left;
+  opacity: 0.8;
+  margin-top: 20px;
+}
+
+#nav2 {
+  float: right;
+  margin-right: 25px;
+  margin-top: 15px;
+}
+
+.clear {
+  clear: both;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#menu {
+  opacity: 0.5;
+  vertical-align: middle;
+}
+
+#button1 {
+  margin-left: 10px;
+  color: white;
+  font-weight: 700;
+  background-color: rgb(66, 133, 244);
+  border-style: none;
+  padding: 10px 15px;
+  border-radius: 2px;
+}
+
+#google {
+  height: 95px;
+  width: 272px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+
+.search {
+  text-align: center;
+  padding-top: 20px;
+  margin-left: 60px;
+}
+
+#search {
+  font-size: 16px;
+  height: 38px;
+  width: 460px;
+  border-radius: 25px;
+  padding: 3px;
+  border: 1px solid lightgray;
+  padding-left: 50px;
+}
+
+#mag {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 10px;
+  right: 445px;
+}
+
+#mic {
+  height: 20px;
+  position: relative;
+  top: 5px;
+  right: 75px;
+}
+
+#button2 {
+  width: 120px;
+  display: inline;
+  margin-top: 30px;
+  padding: 10px;
+  border-style: none;
+  opacity: 0.8;
+  border-radius: 5px;
+  background-color: rgb(240, 240, 240);
+}
+
+#button3 {
+  width: 130px;
+  margin-top: 30px;
+  margin-left: 10px;
+  padding: 10px;
+  border-style: none;
+  opacity: 0.8;
+  border-radius: 5px;
+  background-color: rgb(240, 240, 240);
+}
+
+.buttons {
+  text-align: center;
+}
+
+.language {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.language a:link {
+  color: blue;
+}
+
+.foot1 {
+  background-color: rgb(240, 240, 240);
+  margin-top: 30px;
+  height: 95px;
+}
+
+.foot1 p {
+  opacity: 0.7;
+  font-size: 14px;
+  padding: 15px;
+}
+
+.foot1 a {
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.foot1 a:hover {
+  text-decoration: underline;
+}
+
+#rule {
+  opacity: 0.5;
+  margin-left: 10px;
+}
+
+.foot2 {
+  float: left;
+  opacity: 0.8;
+  margin: 15px;
+}
+
+.foot3 {
+  float: right;
+  margin-right: 25px;
+  margin: 15px;
+  opacity: 0.8;
+}
+
+body {
+  overflow-y: hidden;
+}
